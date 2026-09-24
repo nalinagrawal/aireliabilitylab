@@ -1,0 +1,20 @@
+India AI Reliability Lab
+Most organizations have proven they can build AI. The bigger challenge is governing AI, controlling token costs, and operating AI reliably at scale.
+
+This repository explain about how one can 
+- Improving AI governance and reducing operational risk
+- Optimizing token consumption and lowering AI costs
+- Understand LLM as a Judge
+- Scaling AI adoption with confidence and reliability
+
+You'll hear practical lessons from organizations that have successfully moved AI from experimentation to production while balancing innovation, governance, and cost efficiency.
+
+
+During the lab, your practitioners team will learn how to:
+
+- Improve AI output quality and reduce hallucinations
+- Detect and optimize token waste to control LLM costs
+- Gain visibility into complex Agentic AI workflows
+- Identify and resolve AI latency and performance issues
+- Monitor and scale cloud-native AI and Kubernetes environments with confidence
+- Executive Session
