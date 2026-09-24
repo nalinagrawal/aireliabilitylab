@@ -1,0 +1,39 @@
+AI Observability
+End-to-end observability for your Agentic AI and LLM workloads.
+
+Link - https://www.dynatrace.com/hub/detail/ai-and-llm-observability/ 
+
+Overview
+Businesses are adopting Agentic AI, GenAI services and apps at scale — using LLMs for autonomous agents, RAG pipelines, semantic search, and complex multi-step orchestration across dozens of providers and frameworks. Managing the performance, cost, quality, and reliability of these workloads requires purpose-built observability that understands AI-specific signals.
+
+Dynatrace AI Observability provides a unified view across every layer of your whole AI stack: model and provider calls, orchestration frameworks, vector databases, agent topology, and infrastructure to coding agents. It ingests gen_ai.* telemetry from any source — Dynatrace OneAgent (zero-code, automatic), OpenTelemetry (native OTLP), OpenInference or OpenLLMetry and surfaces it in a single, consistent experience without requiring you to change your instrumentation approach
+
+Beyond traces and metrics, Dynatrace AI Observability includes agent topology mapping via Smartscape, showing how agents call each other and which models and tools they depend on in real time. It also supports production AI quality evaluation through dt-evals, enabling LLM-as-judge scoring of live responses so quality regressions are caught alongside performance and cost issues. Set SLOs and get alerts the moment latency, error rate, or cost budgets are breached
+
+Use cases
+- Monitor agent and model health and performance
+- Track request counts, durations, error rates, and token costs across providers and agent tiers in real time.
+- Set SLOs and get alerts the moment latency, error rate, or cost budgets are breached — with automated remediation workflows to route to fallback models or scale inference capacity.
+- Visualize agent topology and dependencies
+- Map your full multi-agent system in Smartscape — which agents call each other, which models they use, and which tools and vector stores they depend on.
+- Detect cascading failures and understand the blast radius of a model or provider outage instantly.
+- End-to-end prompt tracing and debugging
+- Trace prompt flows from user request through agent handoffs, tool calls, and retrieval to final response for faster root cause analysis.
+- Capture full prompt and response content (opt-in) to debug complex pipelines with span-level precision.
+- Evaluate AI quality in production
+- Score live responses with LLM-as-judge evaluations via dt-evals — completeness, relevance, toxicity — attached to the same spans as latency and cost.
+- Alert on quality score regressions using workflow engine, SLOs and combine with cost and latency signals for confident rollback or rollforward decisions.
+- Build trust and reduce compliance risk
+- Track every input and output for a complete audit trail, queryable in real time and stored for future reference.
+- Monitor guardrail activations — PII, topic, and content filters — as metrics with full data lineage from prompt to response.
+- Stitch browser sessions to AI agent traces
+- Connect every user click to the full backend AI span tree via Dynatrace RUM — W3C traceparent headers make each LLM call a child of the browser user-action span.
+- Reconstruct complete multi-turn agent trajectories from first question to final answer using a single gen_ai.conversation.id seeded from the RUM session ID.
+
+Get started
+Setting up full stack observability for your GenAI applications is possible with OpenTelemetry, or auto-instrumentation libraries like Traceloop's OpenLLMetry, with OpenTelemetry under the hood, which can seamlessly provide comprehensive end-to-end insights into your production environments.
+
+To set up OpenLLMetry with Dynatrace, see Dynatrace Documentation.
+https://docs.dynatrace.com/docs/observe/dynatrace-for-ai-observability/get-started 
+
+You can access all these capabilities through customizable, ready-made dashboards tailored to your needs.
